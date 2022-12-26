@@ -1,0 +1,19 @@
+{
+  "name": "HB Footer Module",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razonyang/hb-footer.git"
+  },
+  "author": "Razon Yang <razonyang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/razonyang/hb-footer/issues"
+  },
+  "homepage": "https://github.com/razonyang/hb-footer",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-go-template": "^0.0.13"
+  }
+}
