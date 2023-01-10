@@ -6,7 +6,11 @@
     <ul class="hb-footer-menus list-unstyled">
       {{- range .Children }}
         <li class="mb-2">
-          <a class="hb-footer-menu" href="{{ .URL }}">
+          {{- $external := partial "base/functions/is-menu-external" . }}
+          <a
+            class="hb-footer-menu"
+            href="{{ .URL }}"
+            {{ if $external }}target="_blank"{{ end }}>
             {{- partial "hb/modules/footer/menu-text" . -}}
           </a>
         </li>
